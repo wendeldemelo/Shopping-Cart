@@ -1,0 +1,27 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "Projeto carrinho de compras",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js",
+    "lint:styles": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wendeldemelo/Shopping-Cart.git"
+  },
+  "author": "Wendel Melo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wendeldemelo/Shopping-Cart/issues"
+  },
+  "homepage": "https://github.com/wendeldemelo/Shopping-Cart#readme",
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-trybe-fundamentals": "^1.1.1",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-sonarjs": "^0.13.0"
+  }
+}

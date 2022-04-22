@@ -51,7 +51,7 @@ header {
 }
 
 .item .item__add {
-  background-color:antiquewhite;
+  background-color: antiquewhite;
   border-radius: 5px;
   border-style: groove;
   cursor: pointer;
@@ -73,6 +73,15 @@ header {
   flex-basis: 1;
   font-size: 16pt;
   text-align: center;
+}
+
+.cart .empty-cart {
+  background-color: antiquewhite;
+  border-radius: 5px;
+  border-style: groove;
+  cursor: pointer;
+  margin: 0;
+  padding: 5px;
 }
 
 footer {
